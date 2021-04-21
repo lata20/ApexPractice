@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Timesheet" variant="narrow"
+    icon-name="standard:opportunity">
+    <h1>Current Time:{diff}</h1>
+    <lightning-layout>
+        <lightning-layout-item size="4" padding="around-medium">
+            <lightning-button  label="Start" variant="success" position="left" onclick={button1Handler}></lightning-button><br/><br/><br><br/>&nbsp;
+            <lightning-formatted-text value={startTime}></lightning-formatted-text>
+    </lightning-layout-item> 
+    <lightning-layout-item size="4" padding="around-medium">
+        <lightning-button  label="Stop" variant="destructive" position="right" onclick={button2Handler}></lightning-button><br/><br/><br><br/>&nbsp;
+        <lightning-formatted-text value={endTime}></lightning-formatted-text>
+    </lightning-layout-item> 
+    <lightning-layout-item size="4" padding="around-medium">
+        <lightning-button  label="Reset" variant="brand" position="right" onclick={button3Handler}></lightning-button><br/><br/><br><br/>&nbsp;
+        
+    </lightning-layout-item>  
+    </lightning-layout>
+</lightning-card>
+</template>
