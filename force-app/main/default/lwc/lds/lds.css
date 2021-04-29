@@ -1,0 +1,9 @@
+.clock {
+    position: absolute;
+    font-weight: bolder;
+    left: 30%;
+    color: #720b0b;
+    font-size: 25px;
+    font-family: Calibri;
+    letter-spacing: 3px;
+}
